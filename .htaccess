@@ -1,0 +1,30 @@
+RewriteEngine On
+# Redirect non-www to www
+RewriteCond %{HTTP_HOST} ^thetechcare\.in [NC]
+RewriteRule ^(.*)$ http://www.thetechcare.in/$1 [L,R=301]
+
+# Internally rewrite /service/local-digital to /local-digital.php
+RewriteRule ^service/local-digital$ local-digital.php [L]
+RewriteRule ^service/web-development$ web-development.php [L]
+RewriteRule ^service/app-development$ app-development.php [L]
+RewriteRule ^service/custom-software-development$ custom-software-development.php [L]
+RewriteRule ^service/eCommerce-website$ eCommerce-website.php [L]
+RewriteRule ^service/social-media-management$ social-media-management.php [L]
+
+
+
+# Handle the removal of .php extension
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [L]
+
+ErrorDocument 404 /404.php
+
+# Redirect /index.php to /
+RewriteCond %{THE_REQUEST} /index\.php [NC]
+RewriteRule ^index\.php$ / [L,R=301]
+
+
+
+
+

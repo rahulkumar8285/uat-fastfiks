@@ -1,0 +1,267 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal
+}
+img.logo {
+    height: 60px;
+    width: auto;
+}
+.logotext {
+    font-size: 30px;
+    font-weight: 500;
+    color: #000;
+}
+
+.call-btn {
+    font-size: 18px;
+    background: #7dc22b;
+    border: 2px solid #7dc22b;
+    color: #fff;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 5px;
+    border: none;
+}
+.call-btn:hover{
+    background: #fff;
+    color: #7dc22b; 
+    border: 2px solid #7dc22b;
+}
+.backgroudColor{
+    background:#f5f7fa;
+    border-top: 1px solid #f5f5f5;
+    border-bottom: 1px solid #f5f5f5;
+}
+.pd-100{
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+
+.pd-50{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.serviceTitle {
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 5px;
+}
+.serviceContent{
+    font-size: 20px;
+}
+.box{
+    padding: 10px;
+    border: 2px solid #7dc22b;
+    border-radius: 5px;
+    color: #000;
+}
+.serviceActionBtn {
+    /* text-decoration: underline; */
+    margin-top: 10px;
+    cursor: pointer;
+    display: inline-block;
+    background: linear-gradient(to right, #000 50%, #7dc22b 50%); /* Initial colors */
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent; /* Hide the original text color */
+    background-size: 200% 100%; /* Twice the size for the sliding effect */
+    transition: background-position 0.5s ease-in-out; /* Smooth transition */
+}
+.serviceActionBtn:hover{
+     background-position: -100% 0;
+}
+
+.tech-slider-right-left {
+    width: 100%;
+    margin: 0 auto;
+}
+.imgBox img {
+    padding-right: 20px;
+}
+.imgBox {
+    padding: 0px 0px 15px 0px;
+}
+
+
+
+.faq {
+    padding: 60px 0;
+  }
+  .faq .faq-list {
+    padding: 0;
+    list-style: none;
+  }
+  .faq .faq-list li {
+      background-color: #f0f0f0;
+      margin-bottom: 10px;
+      border-radius: 10px;
+      padding: 10px 40px;
+  }
+  .faq .faq-list a {
+      display: block;
+      position: relative;
+      font-size: 16px;
+      font-weight: 600;
+      color: #333333;
+      text-decoration: none;
+  }
+  
+  .faq .faq-list i {
+    font-size: 16px;
+    position: absolute;
+    left: -25px;
+    top: 6px;
+    transition: 1s;
+  }
+  .faq-title {
+      text-align: center;
+      font-size: 17px;  
+      margin-bottom: 30px;
+      padding-bottom: 10px;
+      color: #000000;
+  }
+  
+  .faq .faq-list p {
+    padding-top: 5px;
+    margin-bottom: 20px;
+    font-size: 15px;
+  }
+  
+  .collapsed i.fa.fa-arrow-up {
+      
+  }
+  .collapsed i.fa.fa-arrow-up {
+      transform: rotate(180deg);
+  }
+  .pd-10{
+    padding-top:10px;
+    padding-bottom:10px;
+  }
+
+  .no-decoration {
+    text-decoration: none;
+}
+.clientBox{
+    font-size: 30px;
+}
+
+.subHeading {
+    font-size: 35px;
+}
+.paraText {
+    font-size: 20px;
+}
+.formSubmit input {
+    height: 50px;
+    width: 100%;
+    margin: 15px 0px;
+}
+
+
+.closeModal {
+    position: absolute;
+    right: -20px;
+    height: 50px;
+    width: 50px;
+    background: red;
+    border-radius: 50%;
+    top: -15px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.modal-content{
+    overflow: hidden;
+}
+.closeIcon {
+    font-size: 30px;
+    color: #fff;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.error-message{
+    color: red;
+}
+.rotating {
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.logo-slider {
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+
+.KeyBox{
+    padding: 10px;
+}
+.serviceCol{
+    padding:15px !important;
+}
+
+.circle {
+    height: 100px;
+    width: 100px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .subHeading {
+        font-size: 28px; /* Adjust this size as needed for larger screens */
+    }
+}
+
+@media (min-width: 425px) {
+    .imgBox {
+        padding: 0px 0px 15px 0px;
+        display: flex;
+        align-items: center;
+        align-content: center;
+    }
+    .subHeading {
+        font-size: 25px; /* Adjust this size as needed for larger screens */
+    }
+}
+
+
+@media (min-width: 375px) {
+    .imgBox {
+        padding: 0px 0px 15px 0px;
+        display: flex;
+        align-items: center;
+        align-content: center;
+    }
+    .subHeading {
+        font-size: 25px; /* Adjust this size as needed for larger screens */
+    }
+}
+.whatsapp-icon img {
+    height: 70px;
+}
+
+.whatsapp-icon {
+    position: fixed;
+    bottom: 10px;
+    right: 17px;
+    z-index: 99;
+}
