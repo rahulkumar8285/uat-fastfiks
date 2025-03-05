@@ -34,7 +34,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <h1 class="h1-large">Smart Solutions for a Digital World</h1>
+                        <h1 class="h1-large">Smart Solutions for a Digital World Test</h1>
                         <a class="btn-solid-lg" href="#contact">Get a Quote</a>
                     </div> <!-- end of col -->
                 </div> <!-- end of row -->
