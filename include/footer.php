@@ -1,5 +1,5 @@
 <div class="whatsapp-icon">
-    <a href="https://wa.me/918929721558">
+    <a href="https://wa.me/6307663448">
         <img src="https://www.dhananjayiasacademy.com//assest/images/Icons/WhatsApp_icon.png" class="img-fluid">
     </a>
 </div>
